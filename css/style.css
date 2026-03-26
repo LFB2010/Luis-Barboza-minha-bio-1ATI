@@ -40,3 +40,8 @@ a:hover {
 a {
     font-size: 20px; /* tamanho padrão */
 }
+/* Tamanho da imagem */
+img { 
+width: 50%; /* Ajusta para 50% do tamanho do container */
+height: auto; /* Mantém a proporção da imagem */
+}
