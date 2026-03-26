@@ -1,47 +1,62 @@
 body {
-    background-color: #15355a; /
-}
-body {
-timeline-scope     : Arial, Helvetica, sans-serif; 
-line-height: 1.5;
-margin: 16px;
-}
-h1 {
-color: #e3f1f5;
-font-size: 50px;
-}
-h2 {
-     color: #86d0e2;
-} 
-p {
-color: #86d0e2; font-size: 18px;
-}
-li {
-    color:#86d0e2;
+    background-color: #15355a;
+    font-family: cursive;
     line-height: 1.5;
-margin:20px;
- font-size: 20px;
+    margin: 16px;
 }
+
+h1 {
+    color: #e3f1f5;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+h2 {
+    color: #86d0e2;
+    font-family: cursive;
+}
+
+p {
+    color: #86d0e2;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+li {
+    color: #86d0e2;
+    line-height: 1.5;
+    margin: 20px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
 /* Cor do link não visitado */
 a:link {
     color: #cde7ed; /* link não visitado */
-    text-decoration: none; /* remove sublinhado */ 
+    text-decoration: none; /* remove sublinhado */
+    font-family: cursive;
 }
+
 /* Cor do link já visitado */
 a:visited {
     color: #cde7ed;
+    font-family: cursive;
 }
+
 /* Cor quando o mouse passa por cima */
 a:hover {
     color: #4181be;
     text-decoration: underline; /* adiciona sublinhado no hover */
+    font-family: cursive;
 }
+
 /* Tamanho do texto dos links */
-a {
-    font-size: 20px; /* tamanho padrão */
+.Lado {
+    font-size: 30px;
+    font-family: cursive;
+    display: grid;
+    place-items: center; /* centraliza horizontal e vertical */
+    height: 100vh;
 }
-/* Tamanho da imagem */
-img { 
-width: 50%; /* Ajusta para 50% do tamanho do container */
-height: auto; /* Mantém a proporção da imagem */
-}
+
+
