@@ -14,11 +14,12 @@ h1 {
 h2 {
     color: #86d0e2;
     font-family: cursive;
+    font-size: 34px;
 }
 
 p {
     color: #86d0e2;
-    font-size: 18px;
+    font-size: 25px;
     font-family: cursive;
 }
 
@@ -26,7 +27,7 @@ li {
     color: #86d0e2;
     line-height: 1.5;
     margin: 20px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: cursive;
 }
 
@@ -35,12 +36,14 @@ a:link {
     color: #cde7ed; /* link não visitado */
     text-decoration: none; /* remove sublinhado */
     font-family: cursive;
+    font-size: 25px;
 }
 
 /* Cor do link já visitado */
 a:visited {
     color: #cde7ed;
     font-family: cursive;
+    font-size: 25px;
 }
 
 /* Cor quando o mouse passa por cima */
@@ -48,15 +51,18 @@ a:hover {
     color: #4181be;
     text-decoration: underline; /* adiciona sublinhado no hover */
     font-family: cursive;
+    font-size: 25px;
 }
 
-/* Tamanho do texto dos links */
-.Lado {
-    font-size: 30px;
-    font-family: cursive;
-    display: grid;
-    place-items: center; /* centraliza horizontal e vertical */
-    height: 100vh;
+/* Centralizar a div lado */
+.lado {
+    margin: -280px auto 0 auto;
+    width: fit-content;
+    text-align: center;
 }
-
-
+.img {
+    position: relative;
+    left: 1200px;
+    top: -550px;
+    width: fit-content;
+}
